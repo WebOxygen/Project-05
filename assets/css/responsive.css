@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 10000px) {
+    .container{max-width: 1200px;}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 10000px) {
+	header.sticky:before {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (min-width:992px) and (max-width: 1200px) { 
+    .mainmenu {margin: auto auto auto 40px;}
+    .mainmenu ul li a {padding: 20px 10px;}
+    .mission-after {right: -195px;}
+    .mission-life-txt {padding: 30px 20px 55px;}
+    .life-btn {margin: 0 0 38px -38px;}
+    .science-before {left: -260px;bottom: -190px;max-width: 150px;}
+    .science-slide {padding: 30px 0 0px 60px;margin: 50px 0 0 10px;}
+    .science-slide span {margin: 0 0px 10px 20px;max-width: 100px;}
+    .science-slide::before {height: 280px;width: 280px;}
+    .science-slide::after {left: -10px;height: 300px;width: 300px;top: -10px;}
+    .quote-slider .slick-prev.slick-arrow {left: -90px;}
+    .quote-slider .slick-next.slick-arrow {right: -90px;}
+   
+    .ips-common-txt h3 {font-size: 34px;}
+    .teams-items {margin: 0 -15px 0 -15px;}
+    .teams-item {padding: 0 15px;}
+    
+    .about-us-details {padding: 50px 0;}
+    .about-us-img {max-width: 470px;}
+        
+    .contact-address {width: 32%;}
+    .contact-mail-to {font-size: 20px;}
+    
+    .inv-banner-items {padding: 0;}
+    .inv-therapies-area .ips-common-item:nth-child(2) .ips-common-item-img span {right: 68px;}
+    .cel-medium-img-item {padding: 0 10px;}
+    .cel-medium-img-items::before {top: 156px;right: -20px;}
+    .cel-medium-img-items::after {width: 24px;top: 88px;}
+    .cel-left-area p,.cel-small-img-items p {font-size: 16px;}
+    .cel-small-img-item ul li {padding: 4px;} 
+}
+
+
+/* Tablet Layout: 991px. */
+
+@media (min-width:100px) and (max-width: 991px) {
+    .mainmenu{display: none}
+	.mobile-menu-wrapper {display: block;}
+    .header-area {justify-content: flex-end;}
+    .logo {margin: auto auto auto 0;}
+    .sticky .header-area {padding: 6px 0;}
+    .sticky .menu {top: 64px;}
+    .container-extend {padding-right: 30px;padding-left: 30px;}
+    .header-height {height: 85px;}
+    .contact-btn .main-btn {margin: 0 10px 0 0;}
+    .banner-area{padding: 100px 0px 260px;}
+    .banner-txt h1 {font-size: 58px;}
+    .mission-details{margin-top: -100px;}
+    .mission-txt-area {margin: -40px 0 0 0;}
+    .mission-after {right: 0;max-width: 100px;top: 80px;}
+    .mission-txt {padding: 64px 140px 60px 100px}
+    .mission-txt h3{font-size: 30px;}
+    .small-heading span {left: -90px;}
+    .small-heading span::before {right: -62px;width: 55px;}
+    .mission-life-txt {padding: 30px 20px 55px;}
+    .life-btn {margin: 0 0 38px -38px;}
+    .science-area{padding-top: 0px;}
+    .science-before {left: -40px;bottom: -180px;max-width: 130px;}
+    .science-details {padding: 0 0 0 72px;}
+    .science-slide {padding: 30px 0 30px 60px;margin: 50px 0 0 10px;min-height: 310px;}
+    .science-slide span {margin: 0 0px 10px 20px;max-width: 100px;}
+    .science-slide::before {height: 260px;width: 260px;}
+    .science-slide::after {left: -10px;height: 280px;width: 280px;top: -10px;}
+    .quote-slider{padding: 0 60px;}
+    .quote-slider .slick-arrow{width: 44px;height: 44px;}
+    .quote-slider .slick-prev.slick-arrow {left: -20px;}
+    .quote-slider .slick-next.slick-arrow {right: -20px;}
+    .quote-slide {	padding: 100px 0 0 100px;}
+    .quote-slide span {width: 150px;}
+    .quote-slide p{font-size: 18px;line-height: 28px;}
+    .location-txt {padding: 40px 0 0 0;}
+    .footer-logo-area img{margin-bottom: 30px;}
+    .footer-cpy{text-align: center;}
+    .footer-bot-menu ul{justify-content: center;}
+    .footer-bot-menu ul li{padding: 0px 20px;}
+    .footer-bot-menu ul li:before{right: 0px;}
+    .location-map{max-width: 460px;margin: 0px auto;}
+    
+    .contact-area {padding: 60px 0;}
+    .contact-address{margin-bottom: 40px; width: 100%;}
+    .contact-form h2{margin-bottom: 40px;}
+    .contact-form{width: 100%;}
+    
+    .team-banner-area .ips-common-txt,
+    .ips-common-txt-area, .the-mida-txt {padding: 40px 0 0;}
+    .team-banner-img img{max-width: 400px;width: 100%;}
+    .the-mida-area .container-extend{max-width: 720px;padding: 0px 15px;}
+    .teams-items {margin: 0 -15px 0 -15px;}
+    .teams-item {padding: 0 15px; width: 50%;}
+    .teams-img{max-width: 390px;}
+    
+    .about-us-details {padding: 0 0 50px;}
+    .about-us-img {position: static;max-width: 100%;}
+    
+    .contact-form {padding: 20px 30px 50px;}
+    
+    .act-banner-txt {padding: 0 0 30px;}
+    .act-banner-bottom-txt {max-width: 100%;}
+    .act-develop-img {margin: -160px 0 30px;}
+    
+    
+    .inv-banner-items {padding: 0;}
+    .inv-banner-item {width: 100%;padding: 0;max-width: 400px;}
+    .inv-banner-item:last-child p{margin-bottom: 0px;}
+    .inv-therapies-area .ips-common-item:last-child img {max-width: 150px;}
+    .inv-therapies-area .ips-common-item-img span {right: 13px;}
+    .inv-therapies-area .ips-common-item:nth-child(2) .ips-common-item-img span {right: 58px;}
+    .inv-therapies-area .ips-common-item-img {min-height: 153px;}    
+    .cel-left-area {padding: 0 0 30px;border-bottom: 3px solid #87c1e2;border-right: none;}
+    .cel-medium-img-items::after, .cel-medium-img-items::before {top: 158px;right: -25px;}
+    .cel-medium-img-items::after {width: 2px;top: 80px;height: 90%;right: 0px;}
+    .cel-small-img-item{margin-bottom: 30px;}
+    .for-separetor{margin: 60px 0px;}
+    .als-chair-area img{max-width: 460px;width: 100%;}
+    .als-chair-area span img{max-width: 160px;}
+}
+
+
+/* Wide Mobile Layout: 767px. */
+
+@media (min-width: 100px) and (max-width: 767px) {
+    br{display: none;}
+    .page-content-block{padding: 60px 0}
+    .location-area .for-separetor{margin-bottom: 60px;}
+    .banner-area {padding: 80px 0 200px;}
+    .scroll-down {margin: 0;}
+    .banner-txt p{font-size: 16px;line-height: 24px;}
+    .mission-details {margin: -70px 0 0;}    
+    .mission-txt {padding: 50px 0 60px 100px;}
+    .mission-txt h3{font-size: 24px;}
+    .mission-after {left: 0;max-width: 80px;top: 150px;}
+    .mission-life-txt, .mission-life-img, .mission-life-img img{width: 100%;}
+    .mission-life-txt h4{font-size: 26px;}
+    .science-area{padding-top: 20px;}
+    .quote-slide{padding-left: 20px;}
+    .quote-slider .slick-dots{left: 80px;}
+    .site-footer-top{padding: 50px 0px;}
+    .footer-menu, .footer-menu-text, .footer-social{width: 100%; margin: 0 0 30px;}    
+    .ips-banner-txt p{font-size: 20px;line-height: 32px;}
+    
+    
+    .teams-popup-img, .teams-popup-text {width: 100%;padding: 0;}
+    .teams-popup-text {padding: 0 20px 0 0}
+    .agree-txt {margin: 0 0 20px;}
+    
+    
+    .ips-common-items {padding: 0px 30px 0px;}
+    .ips-common-item {padding: 50px 0;width: 100%;border-bottom: 1px solid #d4dbea;border-right: none;}
+    .ips-common-item:last-child{margin: 0;border: 0px !important;}
+    .ips-common-item-img{margin-top: 0px;}
+    .bg-blue-area .ips-common-item {border-right:none; border-bottom: 1px solid #1076bc; }
+    
+    .inv-therapies-area .ips-common-item {padding: 0 20px 30px;}
+    .cel-big-img-items{width:100%; margin: 0 0 30px}
+    .cel-medium-img-items {width: 100%;margin: 0;}
+    .inv-therapies-area .ips-common-item:nth-child(1) .ips-common-item-img span {right: 20px;}
+    .inv-therapies-area .ips-common-item:nth-child(2) .ips-common-item-img span {right: 88px;}
+    .als-right-items {width: 48%;}
+    .cel-medium-img-items::before {top: 158px;right: -41px;}
+    .cel-medium-img-items::after {top: auto;height: 101.8%;bottom: -32px;}
+    
+}
+
+@media (min-width: 100px) and (max-width: 640px) {
+	
+	
+}
+
+@media (min-width: 100px) and (max-width: 580px) {
+    .container-extend, .about-us-container {padding-right: 15px;padding-left: 15px;}
+    .banner-area{padding-top: 60px;}
+    .banner-txt h1{font-size: 48px;}
+    .small-heading{margin-bottom: 30px;}
+    .mission-txt h3{font-size: 22px;line-height: 30px;}
+    .science-slide p{font-size: 16px;line-height: 20px;}
+    .quote-slider .slick-prev.slick-arrow{left: -10px;}
+    .quote-slider .slick-next.slick-arrow{right: -10px;}
+    .site-footer{text-align: center;}
+    .footer-social ul{justify-content: center;}
+    .footer-menu-text{line-height: 20px;}
+    .footer-menu-text p{margin-bottom: 5px;}
+    
+    .inv-banner-item img{max-width: 200px;}
+    .inv-banner-item p{font-size: 20px;line-height: 28px;}
+    .cel-big-img-item{width: 38%;}
+    .cel-big-img-item.arrow-item{width: 20%;}
+    .cel-small-img-item ul li:nth-child(3) img{max-width: 20px;}
+    .als-chair-area img{max-width: 380px;}
+    .als-chair-area span img{max-width: 120px;}
+    .als-left-items img{width: 100%;max-width: 180px;}
+    .als-right-img img{width: 100%;max-width: 180px;}
+    .als-right-items{width: 52%;}
+}
+
+@media (min-width: 100px) and (max-width: 480px) {
+    .header-height {height: 60px;}
+    .menu {top: 78px;}
+    .sticky .menu {top: 60px;}
+    .sticky .logo img {max-width: 70px;}
+    .header-area{padding: 10px 0px;}
+   .banner-txt h1 {	font-size: 36px;}
+	h2 {font-size: 28px;line-height: 40px}
+	h3, h4, .ips-banner-txt h3 {font-size: 24px;line-height: 36px}
+    .science-before {left: 0;bottom: -100px;max-width: 80px;}
+    .mission-txt h3{font-size: 18px;line-height: 26px;}
+    .mission-txt-area {margin: 0;}
+    .mission-after {top: 120px;}
+    .small-heading {margin: 0 0 16px;}
+    .small-heading span {left: -73px;}
+    .small-heading span::before {right: -45px;width: 35px;}
+    .science-area{padding-top: 0px;}
+    .quote-slide span {width: 70px;}
+    .quote-slide {padding: 40px 0 0 40px;}
+    .quote-slider {padding: 0 40px 0 10px;}
+    .quote-slide p {font-size: 16px;line-height: 24px;}
+    .quote-name{margin-top: 30px;}
+    .quote-name h5{font-size: 18px;}
+    .quote-slider .slick-arrow {height: 40px;width: 40px;margin-top: -20px;}
+    .quote-slider .slick-next.slick-arrow {right: 0px;}
+    .quote-slider .slick-prev.slick-arrow {left: 0px;}
+    .quote-slider .slick-dots {top: 0;left: 51px;}
+    
+    .agree-txt {margin: 0 0 20px;}
+    .contact-mail-to {font-size: 24px;}
+    
+    .ips-banner-txt p {font-size: 18px;line-height: 28px;}
+    
+    .teams-items {margin: 0;}
+    .teams-item {padding: 0; width: 100%;margin-left: auto;margin-right: auto;max-width: 390px;}
+    
+    .contact-details {padding: 50px 20px;}
+    
+    .act-banner-area .act-banner-bottom-txt {margin: 40px auto 90px;}
+    
+    .cel-medium-img-items::before {right: -33px;}
+    .als-area .for-separetor {margin: 50px 0;}
+    .cel-big-img-item.arrow-item{padding-top: 60px;}
+    .cel-big-img-item.arrow-item img{max-width: 18px;}
+    .als-right-arrow{width: 23%;}
+    .als-right-img{width: 75%;}
+}
+
+@media (min-width: 100px) and (max-width: 380px) {
+    .sticky .menu {top: 53px;}
+    .contact-btn .main-btn {font-size: 14px;padding: 5px 20px;}
+    .science-slide::before {height: 184px;width: 184px;}
+    .science-slide::after {height: 206px;width: 206px;}
+    .science-slide {padding: 20px 0 0px 20px;}
+    .science-slide span {max-width: 80px;}
+    .science-slide p{font-size: 14px;line-height: 18px;}
+    .science-slider .slick-arrow {left: -56px;}
+    .teams-popup-block {padding: 25px 15px 30px 15px;}
+    
+    .contact-address {padding: 36px 20px;}
+    .contact-form{padding: 0;}
+    .contact-mail-to {font-size: 20px;}
+    
+    .inv-therapies-area .ips-common-item:nth-child(2) .ips-common-item-img span {right: 75px;}
+    .cel-left-area p,.cel-small-img-items p, .als-items p {font-size: 16px;}
+    .cel-small-img-item ul li {padding: 4px;} 
+    .als-chair-area span {max-width: 130px;}
+    .als-right-items {width: 50%;}
+    .als-right-arrow {padding: 46px 10px 0;}
+    .als-items {margin: 0;}
+    .cel-medium-img-items::before {right: -27px;}
+    .cel-medium-img-items::after {top: 74px;height: 86.2%;}
+    .cel-big-img-item.arrow-item {padding-top: 40px;}
+    .cel-big-img-item.arrow-item img, .als-right-arrow img{max-width: 14px;}
+    
+}
+
+@media (min-width: 100px) and (max-width: 320px) {
+    .cel-medium-img-items::before {right: -23px;top: 148px;}
+    .cel-medium-img-items::after {top: 74px;height: 84.8%;}
+}
